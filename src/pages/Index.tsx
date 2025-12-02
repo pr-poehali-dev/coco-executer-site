@@ -4,6 +4,12 @@ import Icon from "@/components/ui/icon";
 import { Badge } from "@/components/ui/badge";
 
 const Index = () => {
+  const downloadUrl = "https://disk.yandex.ru/d/HhXhYRp090pZjQ";
+
+  const handleDownload = () => {
+    window.open(downloadUrl, '_blank');
+  };
+
   const features = [
     {
       icon: "Shield",
@@ -87,7 +93,7 @@ const Index = () => {
             <a href="#download" className="hover:text-primary transition-colors">Загрузка</a>
             <a href="#docs" className="hover:text-primary transition-colors">Документация</a>
           </div>
-          <Button className="bg-gradient-to-r from-neon-purple to-neon-blue neon-border hover:scale-105 transition-transform">
+          <Button onClick={handleDownload} className="bg-gradient-to-r from-neon-purple to-neon-blue neon-border hover:scale-105 transition-transform">
             <Icon name="Download" size={18} className="mr-2" />
             Скачать
           </Button>
@@ -109,7 +115,7 @@ const Index = () => {
                 Самый надежный инжектор для Roblox с автоматическим обновлением и защитой
               </p>
               <div className="flex flex-wrap gap-4">
-                <Button size="lg" className="bg-gradient-to-r from-neon-purple to-neon-blue text-lg px-8 py-6 neon-border animate-pulse-glow hover:scale-105 transition-transform">
+                <Button onClick={handleDownload} size="lg" className="bg-gradient-to-r from-neon-purple to-neon-blue text-lg px-8 py-6 neon-border animate-pulse-glow hover:scale-105 transition-transform">
                   <Icon name="Download" size={24} className="mr-2" />
                   Скачать бесплатно
                 </Button>
@@ -242,7 +248,7 @@ const Index = () => {
             </CardHeader>
             <CardContent className="relative z-10 space-y-6">
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" className="bg-gradient-to-r from-neon-purple to-neon-blue text-xl px-12 py-8 neon-border animate-pulse-glow hover:scale-105 transition-transform">
+                <Button onClick={handleDownload} size="lg" className="bg-gradient-to-r from-neon-purple to-neon-blue text-xl px-12 py-8 neon-border animate-pulse-glow hover:scale-105 transition-transform">
                   <Icon name="Download" size={28} className="mr-3" />
                   Скачать v3.5
                 </Button>

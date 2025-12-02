@@ -82,8 +82,8 @@ const Index = () => {
       <nav className="fixed top-0 w-full z-50 backdrop-blur-md bg-dark-bg/70 border-b border-primary/20">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-neon-purple to-neon-blue rounded-lg flex items-center justify-center neon-border">
-              <span className="text-2xl">⚡</span>
+            <div className="w-10 h-10 rounded-lg flex items-center justify-center neon-border">
+              <img src="https://cdn.poehali.dev/files/26893c73-58a0-4fa8-bc14-81f05b6eda3d.jpg" alt="Coco-Executer" className="w-full h-full object-contain" />
             </div>
             <span className="text-2xl font-bold neon-glow">Coco-Executer</span>
           </div>
@@ -354,8 +354,8 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-gradient-to-br from-neon-purple to-neon-blue rounded-lg flex items-center justify-center neon-border">
-                <span className="text-2xl">⚡</span>
+              <div className="w-10 h-10 rounded-lg flex items-center justify-center neon-border">
+                <img src="https://cdn.poehali.dev/files/26893c73-58a0-4fa8-bc14-81f05b6eda3d.jpg" alt="Coco-Executer" className="w-full h-full object-contain" />
               </div>
               <span className="text-xl font-bold">Coco-Executer</span>
             </div>
